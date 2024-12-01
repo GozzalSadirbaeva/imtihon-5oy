@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./src/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="fixed top-0 w-[100%]">
+      <ul
+        class="flex items-center justify-between h-16 px-4 bg-gray-800 text-white"
+      >
+        <li class="flex items-center">
+          <a class="ml-6 font-bold text-xl" href="/">Logo</a>
+        </li>
+        <li class="flex items-center">
+          <a class="ml-6 hover:text-gray-400" href="/product.html">Products</a>
+        </li>
+        <li class="flex items-center">
+          <a class="ml-6 hover:text-gray-400" href="/category.html">Category</a>
+        </li>
+        <li class="flex items-center">
+          <a class="ml-6 hover:text-gray-400" href="/profile.html">Profile</a>
+        </li>
+        <li class="flex items-center">
+          <a class="ml-6 hover:text-gray-400" href="/favourites.html"
+            >Favourites</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main class="px-4 mt-24">
+      <section class="max-w-4xl p-6 mx-auto bg-white rounded-lg shadow-lg">
+        <h1 class="mb-6 text-2xl font-bold">Categories</h1>
+
+        <!-- Add New Category -->
+        <div class="mb-6">
+          <input
+            type="text"
+            id="createNewCategory"
+            class="w-full px-4 py-2 mb-2 border border-gray-300 rounded-lg"
+            placeholder="Enter new category name"
+          />
+          <button
+            id="addCategoryBtn"
+            class="w-full px-4 py-2 text-black transition bg-green-500 rounded hover:bg-green-600"
+          >
+            Add Category
+          </button>
+        </div>
+
+        <!-- Categories List -->
+        <ul id="categoryList" class="space-y-4"></ul>
+      </section>
+    </main>
+
+    <script src="/category.js"></script>
+  </body>
+</html>
