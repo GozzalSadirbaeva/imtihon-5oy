@@ -26,25 +26,7 @@
     }
   ],
   "profile": {
-    "item": {
-      "item": {
-        "item": {
-          "name": "John Doe",
-          "email": "john.doe@example.com",
-          "address": "123 Main St, Anytown, USA",
-          "phone": "123-456-7890"
-        },
-        "name": "John Doebek",
-        "email": "john.doe@example.com",
-        "address": "123 Main St, Anytown, USA",
-        "phone": "123-456-7890"
-      },
-      "name": "John Doebek",
-      "email": "john.doe@example.com",
-      "address": "123 Main St, Anytown, USA",
-      "phone": "123-456-78903434"
-    },
-    "name": "John Doebekdc",
+    "name": "John Doebekdcdddd",
     "email": "john.doe@example.com",
     "address": "123 Main St, Anytown, USA",
     "phone": "123-456-78903434"

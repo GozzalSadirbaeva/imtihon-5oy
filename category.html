@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="./src/output.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <nav class="fixed top-0 w-[100%]">
@@ -12,19 +18,38 @@
         class="flex items-center justify-between h-16 px-4 bg-gray-800 text-white"
       >
         <li class="flex items-center">
-          <a class="ml-6 font-bold text-xl" href="/">Logo</a>
+          <a
+            class="ml-6 font-bold text-xl text-white no-underline"
+            href="/logo.html"
+            >Logo</a
+          >
+          >
         </li>
         <li class="flex items-center">
-          <a class="ml-6 hover:text-gray-400" href="/product.html">Products</a>
+          <a
+            class="ml-6 hover:text-gray-400 text-white no-underline"
+            href="/product.html"
+            >Products</a
+          >
         </li>
         <li class="flex items-center">
-          <a class="ml-6 hover:text-gray-400" href="/category.html">Category</a>
+          <a
+            class="ml-6 hover:text-gray-400 text-white no-underline"
+            href="/category.html"
+            >Category</a
+          >
         </li>
         <li class="flex items-center">
-          <a class="ml-6 hover:text-gray-400" href="/profile.html">Profile</a>
+          <a
+            class="ml-6 hover:text-gray-400 text-white no-underline"
+            href="/profile.html"
+            >Profile</a
+          >
         </li>
         <li class="flex items-center">
-          <a class="ml-6 hover:text-gray-400" href="/favourites.html"
+          <a
+            class="ml-6 hover:text-gray-400 text-white no-underline"
+            href="/favourites.html"
             >Favourites</a
           >
         </li>
@@ -34,7 +59,6 @@
       <section class="max-w-4xl p-6 mx-auto bg-white rounded-lg shadow-lg">
         <h1 class="mb-6 text-2xl font-bold">Categories</h1>
 
-        <!-- Add New Category -->
         <div class="mb-6">
           <input
             type="text"
@@ -50,11 +74,19 @@
           </button>
         </div>
 
-        <!-- Categories List -->
         <ul id="categoryList" class="space-y-4"></ul>
       </section>
     </main>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
     <script src="/category.js"></script>
   </body>
 </html>
